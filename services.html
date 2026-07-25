@@ -3,126 +3,236 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Services - BTK WORLD STANDARD</title>
+<title>Services | BTK WORLD STANDARD</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial,Helvetica,sans-serif;
-    background:#f4f8fc;
+background:#f5f7fa;
+color:#333;
+line-height:1.8;
 }
 
 header{
-    background:#004aad;
-    color:white;
-    text-align:center;
-    padding:30px;
+background:#003366;
+padding:18px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
-nav{
-    background:#003366;
-    text-align:center;
-    padding:15px;
+.logo{
+color:white;
+font-size:28px;
+font-weight:bold;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:600;
 }
 
-section{
-    max-width:1200px;
-    margin:auto;
-    padding:40px 20px;
+nav a:hover{
+color:#00bfff;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
+.banner{
+background:linear-gradient(rgba(0,51,102,.80),rgba(0,51,102,.80)),
+url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1500&q=80');
+background-size:cover;
+background-position:center;
+padding:100px 20px;
+text-align:center;
+color:white;
+}
+
+.banner h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+color:#003366;
+margin-bottom:50px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
 }
 
 .card{
-    background:white;
-    border-radius:12px;
-    padding:25px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:.3s;
 }
 
-h2{
-    color:#004aad;
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#003366;
+margin-bottom:15px;
+font-size:24px;
+}
+
+.card p{
+font-size:17px;
 }
 
 footer{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
+background:#003366;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
 }
+
 </style>
 
 </head>
+
 <body>
 
 <header>
-<h1>BTK WORLD STANDARD</h1>
-<p>Our Professional Services</p>
-</header>
+
+<div class="logo">BTK WORLD STANDARD</div>
 
 <nav>
+
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
 <a href="services.html">Services</a>
 <a href="projects.html">Projects</a>
 <a href="contact.html">Contact</a>
+
 </nav>
 
-<section>
+</header>
 
-<h2>Our Services</h2>
+<section class="banner">
 
-<div class="grid">
+<h1>Our Services</h1>
 
-<div class="card">
-<h3>⚡ Electrical Works</h3>
-<p>Low, Medium and High Voltage installations and maintenance.</p>
-</div>
-
-<div class="card">
-<h3>🌐 Fiber Optic</h3>
-<p>Fiber optic installation, testing and maintenance.</p>
-</div>
-
-<div class="card">
-<h3>🔥 Gas Networks</h3>
-<p>Construction and maintenance of gas distribution systems.</p>
-</div>
-
-<div class="card">
-<h3>🏗 Construction</h3>
-<p>Civil engineering and industrial construction projects.</p>
-</div>
-
-<div class="card">
-<h3>🚛 Logistics</h3>
-<p>Transport, freight and logistics solutions.</p>
-</div>
-
-<div class="card">
-<h3>🦺 HSE</h3>
-<p>Safety management, work at height and risk prevention.</p>
-</div>
-
-</div>
+<p>Professional Engineering & Industrial Solutions</p>
 
 </section>
 
-<footer>
-© 2026 BTK WORLD STANDARD
-</footer>
+<div class="container">
 
-</body>
-</html> 
+<h2 class="title">What We Do</h2>
+
+<div class="services"> 
+<div class="card">
+
+<h3>Construction & Civil Engineering</h3>
+
+<p>
+Building construction, renovation, industrial facilities and civil engineering projects with international quality standards.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Electrical & Energy</h3>
+
+<p>
+Medium and high voltage installations, electrical maintenance, power distribution and energy solutions.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Fiber Optic Networks</h3>
+
+<p>
+Fiber optic installation, testing, maintenance and telecommunication infrastructure projects.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Logistics & Freight</h3>
+
+<p>
+Freight forwarding, transportation management, logistics coordination and supply chain services.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Mechanical 
+<div class="card">
+
+<h3>Telecommunications</h3>
+
+<p>
+Installation, maintenance and modernization of telecommunications infrastructure and communication systems.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Metal Construction</h3>
+
+<p>
+Design, fabrication and installation of steel structures for industrial and commercial projects.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Safety & HSE</h3>
+
+<p>
+Health, Safety & Environment consulting, risk assessment, work at height and industrial safety solutions.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Maintenance Services</h3>
+
+<p>
+Preventive and corrective maintenance for industrial equipment, electrical systems and production facilities.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 BTK WORLD STANDARD 
