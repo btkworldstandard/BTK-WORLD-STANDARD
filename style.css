@@ -1,1 +1,217 @@
+/* ===========================
+   BTK WORLD STANDARD
+=========================== */
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f4f6f9;
+color:#222;
+line-height:1.6;
+}
+
+header{
+background:#003366;
+color:#fff;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.logo h2{
+font-size:30px;
+font-weight:700;
+}
+
+.logo p{
+font-size:14px;
+color:#ddd;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+nav ul li a{
+color:#fff;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#FFD700;
+}
+
+.language select{
+padding:8px;
+border:none;
+border-radius:5px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("benziane toufik.png");
+background-size:cover;
+background-position:center;
+text-align:center;
+padding:120px 20px;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:900px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 35px;
+background:#FFD700;
+color:#000;
+font-weight:bold;
+text-decoration:none;
+border-radius:6px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#ffb300;
+}
+
+.services{
+padding:80px 8%;
+background:#fff;
+}
+
+.services h2{
+text-align:center;
+font-size:38px;
+margin-bottom:50px;
+color:#003366;
+}
+
+.service-box{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#003366;
+margin-bottom:15px;
+} 
+.why-us{
+padding:80px 8%;
+background:#eef4fa;
+}
+
+.why-us h2{
+text-align:center;
+font-size:38px;
+color:#003366;
+margin-bottom:50px;
+}
+
+.why-box{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+footer{
+background:#003366;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+footer h2{
+margin-bottom:15px;
+}
+
+footer p{
+margin:8px 0;
+}
+
+@media(max-width:900px){
+
+header{
+flex-direction:column;
+text-align:center;
+}
+
+nav ul{
+flex-direction:column;
+margin-top:20px;
+gap:15px;
+}
+
+.hero h1{
+font-size:34px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.services h2,
+.why-us h2{
+font-size:30px;
+}
+
+}
+
+@media(max-width:600px){
+
+.hero{
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:28px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.btn{
+padding:12px 25px;
+}
+
+.card{
+padding:20px;
+}
+
+} 
