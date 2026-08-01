@@ -33,3 +33,14 @@
     text-decoration:none;
     font-weight:bold;
 } 
+.logo{
+    font-size:26px;
+    font-weight:bold;
+    color:#FFD700;
+    text-decoration:none;
+    letter-spacing:2px;
+}
+
+.logo strong{
+    color:#ffffff;
+} 
